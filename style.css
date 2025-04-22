@@ -1,0 +1,154 @@
+/* Transições suaves */
+body, h1, h2, p, a {
+  transition: all 0.3s ease;
+}
+
+/* === MODO ESCURO === */
+body {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #00e5a0;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 10px 0;
+  color: #00e5a0;
+}
+
+p {
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #cccccc;
+}
+
+a {
+  display: inline-block;
+  background-color: #2196f3;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+a:hover {
+  background-color: #1976d2;
+}
+
+/* === MODO CLARO === */
+.modo-claro {
+  background-color: #ffffff;
+  color: #111;
+}
+
+body:not(.modo-claro) .projetos {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+}
+
+
+.modo-claro img {
+  border: 3px solid #00796b;
+}
+
+.modo-claro h1 {
+  color: #00796b;
+}
+
+.modo-claro p {
+  color: #444444;
+}
+
+.modo-claro a {
+  background-color: #4caf50;
+  color: white;
+}
+
+.modo-claro a:hover {
+  background-color: #388e3c;
+}
+
+/* SOBRE MIM */
+#sobre {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  padding: 30px;
+  border-radius: 15px;
+  margin-top: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sobre h2 {
+  color: #00e5a0;
+  margin-bottom: 20px;
+}
+
+#sobre p {
+  line-height: 1.6;
+  font-size: 16px;
+  color: #cccccc;
+}
+
+.modo-claro #sobre {
+  background-color: #f9f9f9;
+  color: #111;
+}
+
+.modo-claro #sobre h2 {
+  color: #00796b;
+}
+
+.modo-claro #sobre p {
+  color: #444;
+}
+.projetos {
+  margin-top: 40px;
+  background-color: #f0f0f0;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projetos h2 {
+  color: #00ffcc;
+  margin-bottom: 10px;
+}
+
+.projetos p {
+  color: #ccc;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.projetos a {
+  background-color: #00ffcc;
+  color: #000;
+  padding: 10px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.projetos a:hover {
+  background-color: #00caaa;
+}
