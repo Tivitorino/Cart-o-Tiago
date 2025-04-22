@@ -2,7 +2,7 @@
 
 Meu portfólio pessoal com links para meus projetos, redes sociais e contato via WhatsApp.
 
-🔗 Acesse: https://tivitorino.github.io/Meu-Inicio1/
+🔗 Acesse: https://tivitorino.github.io/Cart-o-Tiago/
 
 ## Projetos em Destaque
 
